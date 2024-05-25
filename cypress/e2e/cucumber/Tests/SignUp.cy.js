@@ -8,18 +8,18 @@ When(' The user fill the field "Name"', () => {
 
 })
 
-And('', () => {
+And('The user fill the field "E-mail" ', () => {
 
 })
 
-And('', () => {
+And('The fill the field "password"', () => {
      
 })
 
-And('', () => {
-    
+And('The user fill the field "confirm password"', () => {
+
 })
 
-Then('', () => {
+Then('The user clik at the "cadastrar"', () => {
 
 })
