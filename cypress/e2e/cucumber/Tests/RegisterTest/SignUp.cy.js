@@ -4,11 +4,11 @@ import CadastroUsuario from "..\..\Pages\RegisterPage\SignUpAdopet.cy."
 const CampoNome = new CadastroUsuario();
 
 Given('The user access the page of registration', () => {
-    CampoNome. VisitandoPage()
+    CampoNome.VisitandoPage()
 })
 
 When(' The user fill the field "Name"', () => {
-
+    CampoNome.VisitandoPage()
 })
 
 And('The user fill the field "E-mail" ', () => {
