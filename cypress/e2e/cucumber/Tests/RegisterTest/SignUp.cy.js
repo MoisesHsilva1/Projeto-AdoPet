@@ -12,7 +12,7 @@ When(' The user fill the field "Name"', () => {
 })
 
 And('The user fill the field "E-mail" ', () => {
-
+    cy.get('commit')
 })
 
 And('The fill the field "password"', () => {
