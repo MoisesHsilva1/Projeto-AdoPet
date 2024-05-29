@@ -9,13 +9,11 @@ Given('The user access the page of registration', () => {
 })
 
 When(' The user fill the field "Name"', () => {
-    CampoNome.VisitandoPage()cy.get('commit')
+    CampoNome.VisitandoPage()
 })
 
 And('The user fill the field "E-mail" ', () => {
     cy.get('commit')
-    cy.get('commit')
-    
 })
 
 And('The fill the field "password"', () => {
